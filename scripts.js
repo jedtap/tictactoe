@@ -11,7 +11,6 @@ const gameFactory = () => {
     updateDOM(index);
     checkWinner();
     mark == "X" ? mark = "O" : mark = "X";
-    console.log(board);
   };
 
   const updateDOM = (index) => {
